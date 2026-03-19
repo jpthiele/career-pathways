@@ -1,4 +1,4 @@
-# Title
+# Developing the role and career pathways of RSEs in Germany: Current perspectives and future aims 
 
 ## Abstract
 
@@ -17,8 +17,6 @@ e.g. industry or self-employed people
 ### Local Perspectives
 
 ### Internationalization
-
-
 
 ### A dump of the meeting notes
 
