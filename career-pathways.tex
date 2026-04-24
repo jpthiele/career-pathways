@@ -23,6 +23,22 @@
 \newcommand{\Eg}{E.\,g.}
 \newcommand{\eg}{e.\,g.}
 
+% ================================
+% Environment for AI Use
+% ================================
+\newenvironment{aiuse}{%
+  \par\vspace{11pt}%
+  \noindent\textbf{Declaration on the use of AI:}\enspace}{%
+  \par\vspace{11pt}}
+
+% ================================
+% Environment for Data availability
+% ================================
+\newenvironment{data}{%
+  \par\vspace{11pt}%
+  \noindent\textbf{Data availability:}\enspace}{%
+  \par\vspace{11pt}}
+
 
 \definecolor{easstblue}{rgb}{.05,.32,.66}
 
@@ -346,6 +362,14 @@ while a general trend reversal to ``Make Mittelbau Great Again!'' is rallied for
 We acknowledge the hospitality of the university of Stuttgart for hosting this workshop.
 FG acknowledges funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through the SFB 1170 “Tocotronics”, project Z03 - project number \geprislink{258499086}.
 \end{acknowledge}
+
+\begin{aiuse}
+We have used AI tools for copyediting purposes.
+\end{aiuse}
+
+\begin{data}
+To protect the personal rights of the participants, poll data is not publicly available.
+\end{data}
 
 \bibliographystyle{eceasst}
 \bibliography{career-pathways}
